@@ -8,7 +8,7 @@ app.set('view engine', 'html');
 app.use(express.static('front/public'));
 
 app.listen(9777, function () {
-    console.log("SPA SERVER DONNATIONS READY");
+    console.log("SPA SERVER DONATIONS READY -> Port 9777");
 });
 
 app.get('/spa/global', function (req, res) {
