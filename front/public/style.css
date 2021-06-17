@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("/fonts/BebasNeue-Regular.eot") format("eot"),
+    url("/fonts/BebasNeue-Regular.otf") format("otf"),
+    url("/fonts/BebasNeue-Regular.ttf") format("ttf"),
+    url("/fonts/BebasNeue-Regular.woff") format("woff"),
+    url("/fonts/BebasNeue-Regular.woff2") format("woff2");
+}
+
+div {
+    font-family: Bebas, serif;
+    font-size: 300%;
+}
