@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.setInterval(function () {
         xhr.open('GET', url, true);
         xhr.send();
-    }, 10000);
+    }, 5000);
 
     xhr.onload = function () {
         if (xhr.status === 200) {
