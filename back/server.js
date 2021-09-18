@@ -9,6 +9,7 @@ app.use(express.static('front/public'));
 
 app.listen(9777, function () {
     console.log("SPA SERVER DONATIONS READY -> Port 9777");
+    console.log("[Pterodactyl] Ready");
 });
 
 app.get('/spa/global', function (req, res) {
