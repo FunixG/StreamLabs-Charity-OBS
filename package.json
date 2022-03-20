@@ -1,24 +1,25 @@
 {
   "name": "spa-event",
   "version": "1.0.0",
-  "description": "Repo to track donnations for streamers who participate at the SPA event the 19 and 2à june 2021",
+  "description": "Repo to track donnations for streamers in streamlabs charity",
   "main": "index.js",
   "scripts": {
     "start": "node back/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FunixG/SPA-Event-Live.git"
+    "url": "git+https://github.com/FunixG/StreamLabs-Charity-OBS.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FunixG/SPA-Event-Live/issues"
+    "url": "https://github.com/FunixG/StreamLabs-Charity-OBS/issues"
   },
-  "homepage": "https://github.com/FunixG/SPA-Event-Live#readme",
+  "homepage": "https://github.com/FunixG/StreamLabs-Charity-OBS#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-es6-template-engine": "^2.2.3"
+    "express-es6-template-engine": "^2.2.3",
+    "morgan": "^1.10.0"
   }
 }

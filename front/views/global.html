@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/style.css">
+    <title></title>
 </head>
 <body>
 
@@ -10,7 +12,11 @@
     <span id="money">0</span> €
 </div>
 
-<script src="/scripts/global.js"></script>
+<script>
+    const url = 'https://streamlabscharity.com/api/v1/causes/${orga}/${campagnName}';
+</script>
+
+<script src="/scripts/fetchMoney.js"></script>
 
 </body>
 </html>

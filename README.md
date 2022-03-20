@@ -1,4 +1,4 @@
-# SPA-Event-Live
+# SL Charity API tracker
 Repo to track donnations for streamers who participate at the SPA event the 19 and 2à june 2021
 
 #Start
@@ -9,8 +9,13 @@ npm start
 At the root
 
 # Routes
-`GET /spa/streamer/{streamer}/{campagnName}` To get the money from a participant\
-`GET /spa/global/` To get the global money raised
+`GET /streamer/{streamer}/{campagnName}` To get the money from a participant\
+
+`GET /global/{orga}/{campagnName}` To get the global money raised
+
+or
+
+`GET /global/{orga}/` To get the global money raised
 
 
 
