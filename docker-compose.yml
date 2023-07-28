@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  donation-tracker:
+    image: "funixgaming-sl-charity-donation-tracker:latest"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9777:9777"
+    restart: always
